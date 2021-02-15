@@ -1,3 +1,14 @@
+## 2021-02-15 08.05
+Måndag!
+Gjort i fredags:
+* Inventerat kontakter med olika synfel. Några svar har jag fått, men väntar på mer input. 
+* Hittat olika verktyg för att hitta rätt färgschema
+* Tuten hann jag inte färdigt, men den är lite på plusmenyn
+
+Att göra idag: 
+* Bjud in Gustav
+* Börja med att läsa och gå igenom alla instruktioner. Hitta en struktur för vidare jobb. 
+
 ## 2021-02-12 kl.09.40
 Igår kryssade jag av hela listan. 
 
