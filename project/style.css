@@ -1,0 +1,10 @@
+/* För att "nolla" dokumentet */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+/* */
