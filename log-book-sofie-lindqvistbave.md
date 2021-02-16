@@ -1,3 +1,6 @@
+## 2021-02-16 15.37
+Most of today's list is done. I've started to look at the Okta-solution and I will give it a serious try. 
+
 ## 2021-02-16 09.04
 Switching over to English since I understood that's the way to do it. 
 Yesterday I finished the list as planned. I also made some research to get an idea of what I want my page to look like. 
