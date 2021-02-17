@@ -1,3 +1,16 @@
+## 2021-02-17 09.36
+Today will be the grand Login Day. If I can make it work, I will have time to start checking out APIs to work with. 
+I have some ideas. I'm also really keen on getting started with .css since I think it's fun even if I'm no expert. 
+
+#### Today's list:
+* Get the login up and running 
+* Check out possibilities for logout aswell
+* Continue browsing for APIs
+
+#### Plus Menu
+* Company name and logo
+* .css styles
+
 ## 2021-02-16 15.37
 Most of today's list is done. I've started to look at the Okta-solution and I will give it a serious try. 
 
