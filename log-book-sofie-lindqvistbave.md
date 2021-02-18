@@ -1,3 +1,12 @@
+## 2021-02-18 09.56
+After a very long and frustrating session with Okta, I decided to leave it for now. Instead I think I've found a suitable API to use. 
+
+#### Today's list:
+* Create .js for the project
+* Get started with the connection
+
+Since today is lecture day, I don't know how much is possible to expect. I have no idea how much time the lecture will take. 
+
 ## 2021-02-17 09.36
 Today will be the grand Login Day. If I can make it work, I will have time to start checking out APIs to work with. 
 I have some ideas. I'm also really keen on getting started with .css since I think it's fun even if I'm no expert. 
