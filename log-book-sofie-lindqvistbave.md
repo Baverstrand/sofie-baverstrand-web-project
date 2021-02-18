@@ -1,3 +1,7 @@
+## 2021-02-18 16.57
+Lecture lasted longer than expected. Calling API is getting closer at least. 
+I have decided to put the login part aside for now. Following instructions to the point does not work yet, and there is no point in wasting precious time. 
+
 ## 2021-02-18 09.56
 After a very long and frustrating session with Okta, I decided to leave it for now. Instead I think I've found a suitable API to use. 
 
