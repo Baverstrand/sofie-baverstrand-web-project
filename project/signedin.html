@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="function.js" type="text/javascript"></script>
     <title>Document</title>
 </head>
 <body>
@@ -15,8 +16,35 @@
         </ul>
         <h1>Företagets namn</h1>
     </header>
-<button type="button"></button>
 
+    <!-- Fetch a random Chuck Norris joke -->
+    <div id="randomchuckjoke">
+        <h3 id="jokeheader">The truth about Chuck</h3>
+        <p id="buttonarea">
+            Chuck dares you!<button onclick="randomchuck()">Click it!</button>
+        </p>
+        <div id="thetruth">
+            <p id="randomjoke"></p>
+        </div>
+    </div>
+
+    <!-- Fetch a random Chuck Norris joke with a name of your choice -->
+    <div id="randomdoejoke">
+        <h3 id="jokeheader">Be your own Chuck</h3>
+        <p id="joketext">
+            Fill in your name and enjoy the life of Chuck!
+        </p>
+        First name: <input id="firstName" type="text" placeholder="John" />
+        <br>
+        Last name: <input id="lastName" type="text" name="lastName" placeholder="Doe" />
+        <br>
+        <p id="buttonarea">
+        <button onclick="randomjohndoe()">Go!</button>
+        </p>
+        <div id="thetruth">
+        <p id="johndoejoke"></p>
+    </div>
+      </div>
 
     <footer>
         <h2>Företagets namn</h2>
