@@ -1,3 +1,10 @@
+## 2021-02-19 08.07
+Yesterday I got the API-part working. Extremely nice! 
+
+#### Today's list
+* Create content for the API page
+* Explore more call possibilities 
+
 ## 2021-02-18 16.57
 Lecture lasted longer than expected. Calling API is getting closer at least. 
 I have decided to put the login part aside for now. Following instructions to the point does not work yet, and there is no point in wasting precious time. 
