@@ -1,4 +1,4 @@
-##2021-02-20 17.37
+##2021-02-20 17.42
 
 The weekend has offered a small amount of extra time here and there, and I've tried to get the css part started a bit. Some progress in the design bit.
 Tomorrow I will try to find a "sticky header" feature aswell. 
