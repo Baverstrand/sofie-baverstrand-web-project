@@ -29,3 +29,8 @@ async function randomjohndoe() {
     //console.log(tojson);
     document.getElementById("johndoejoke").innerText = tojson.value.joke;
   }
+
+  // header content
+  (function fillheader() {
+    document.getElementById("header").innerText = document.getElementById("genericheader").innerText;
+  })();
