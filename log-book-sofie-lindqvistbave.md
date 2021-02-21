@@ -1,4 +1,8 @@
-## 2021-02-20 17.42
+## 2021-02-21 later
+
+Fixed the header text from blocking links with z-axis. 
+
+## 2021-02-21 17.42
 
 The weekend has offered a small amount of extra time here and there, and I've tried to get the css part started a bit. Some progress in the design bit.
 Tomorrow I will try to find a "sticky header" feature aswell. 
