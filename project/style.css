@@ -88,8 +88,7 @@ body {
     color: #190b23;
 }
 
-.button-truth {
-    margin-left: 1em;
+button {
     padding-left: 1em;
     padding-right: 1em;
     background: #5f2888;  /* fallback for old browsers */
@@ -99,6 +98,21 @@ body {
     color: #190b23;
     border: none;
     border-radius: .3em;
+}
+
+.btn-truth {
+    margin-left: 1em;
+}
+
+.the-truth {
+    margin-top: 3em;
+    border: none;
+    min-height: 5em;
+}
+
+.name-box {
+    margin-left: 0.3em;
+    font-family: 'Poppins', sans-serif;
 }
 
 footer {

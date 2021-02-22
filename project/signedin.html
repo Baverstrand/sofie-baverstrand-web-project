@@ -36,10 +36,12 @@
     <!-- Fetch a random Chuck Norris joke -->
     <div class="randomchuckjoke">
         <h3 class="content-heading">The truth about Chuck</h3>
-            Chuck dares you!<button class="button-truth" onclick="randomchuck()">Click it!</button>
-        <div class="thetruth">
+        <div class="joke-area">
+            Chuck dares you!<button class="btn-truth" onclick="randomchuck()">Click it!</button>
+        <div class="the-truth">
             <p id="randomjoke" class="randomjoke"></p>
         </div>
+    </div>
     </div>
 <br>
 <br>
@@ -47,17 +49,19 @@
     <!-- Fetch a random Chuck Norris joke with a name of your choice -->
     <div class="randomdoejoke">
         <h3 class="content-heading">Be your own Chuck</h3>
+        <div class="joke-area">
         <p class="joketext">
             Fill in your name and enjoy the life of Chuck!
         </p>
-        First name: <input id="firstName" class="firstName" type="text" placeholder="John" />
+        First name: <input id="firstName" class="name-box" type="text" placeholder="John" />
         <br>
-        Last name: <input id="lastName" class="lastName" type="text" name="lastName" placeholder="Doe" />
+        Last name: <input id="lastName" class="name-box" type="text" name="lastName" placeholder="Doe" />
         <br>
-        <button class="button-truth" onclick="randomjohndoe()">Go!</button>
-        <div class="thetruth">
+        <button class="btn-own" onclick="randomjohndoe()">Go!</button>
+        <div class="the-truth">
         <p id="johndoejoke" class="johndoejoke"></p>
     </div>
+</div>
       </div>
     </section>
 </div>
