@@ -1,3 +1,13 @@
+## 2021-02-22 08.37
+
+#### Today's list:
+* Finish the header layout
+* Apply header design to footer
+* Finish content design
+
+#### Plus menu
+* Write some text for index page
+
 ## 2021-02-21 later
 
 Fixed the header text from blocking links with z-axis. 
