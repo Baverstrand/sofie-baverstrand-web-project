@@ -7,11 +7,15 @@
 
 html {
     height: 100%; /*This to make the footer at the bottom*/
+    color: #190b23;
+    font-family: 'Poppins', sans-serif;
 }
-/* */
+
 a {
     text-decoration: none;
 }
+/* */
+
 header {
     background: #5f2888;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to bottom, #5f2888, #9341d1);  /* Chrome 10-25, Safari 5.1-6 */
@@ -21,30 +25,41 @@ header {
     grid-row-start: 0;
     grid-row-end: 1;
 }
+
 .navbar li {
     display: inline;
 }
+
 .navbar a {
     margin-top: 1em;
+    margin-bottom: 1em;
     padding-left: 1em;
     padding-right: 1em;;
     color: #190b23;
     display: inline-block;
 }
-.navbar a:hover {
-    background-color: rgba(000,000,000, 0.3);
+
+.nav-list a:hover {
+    background-color: rgba(000,000,000, 0.2);
 }
+
 .nav-list {
+    text-align: center;
     position: relative;
     z-index: 5;
 }
-.heading-large {
-    font-size: 3em;
-    margin-bottom: 0.3em;
-    line-height: 0.7em;
+
+.heading {
     position: relative;
     z-index: 4;
 }
+
+.heading-large {
+    font-size: 3em;
+    margin-bottom: 0.3em;
+    line-height: 1.2em;
+}
+
 body {
     /* background-color: #7030a0; */
     background-color: #9341d1;
@@ -53,19 +68,45 @@ body {
     display: grid;
     grid-template-rows: 1fr auto;
 }
-.content {
+
+.content-background {
     background-image: url(Images/chuck-purple.png);
     background-position: top right;
     background-repeat: no-repeat;
 }
-p {
-    color: #190b23;
-    font-family: 'Poppins', sans-serif;
+
+.content {
+    margin-top: 2em;
+    margin-left: 1em;
+    max-width: 80%;
+    position: relative;
+    z-index: 5;
 }
+
+.content-heading {
+    font-family: 'Bungee', cursive;
+    color: #190b23;
+}
+
+.button-truth {
+    margin-left: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    background: #5f2888;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #5f2888, #9341d1);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #5f2888, #9341d1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Bungee', cursive;
+    color: #190b23;
+    border: none;
+    border-radius: .3em;
+}
+
 footer {
     background: #5f2888;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to top, #5f2888, #9341d1);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to top, #5f2888, #9341d1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Bungee', cursive;
+    color: #190b23;
     grid-row-start: 3;
     grid-row-end: 4;
 }
