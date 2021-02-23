@@ -78,7 +78,7 @@ body {
 }
 
 .content {
-    margin-top: 2em;
+    margin-top: 1em;
     margin-left: 1em;
     max-width: 80%;
     position: relative;
@@ -90,12 +90,20 @@ body {
     color: #190b23;
 }
 
+.list {
+    margin-left: 3em;
+}
+
+.text-block {
+    margin-bottom: 1em;
+}
+
 button {
     padding-left: 1em;
     padding-right: 1em;
     background: #5f2888;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to top, #5f2888, #9341d1);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to top, #5f2888, #9341d1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to top, #5f2888, #9341d1);  /* Chrome, Safari*/
+    background: linear-gradient(to top, #5f2888, #9341d1); /* W3C, IE, Edge, Firefox, Chrome 26+, Opera, Safari 7+ */
     font-family: 'Bungee', cursive;
     color: #190b23;
     border: none;
