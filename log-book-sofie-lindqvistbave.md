@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-responsivitet fungerar med signedin och about
-=======
 ## 2021-02-23 08.25
 
 Good morning!
@@ -12,7 +9,6 @@ I also rearranged the input boxes in order to get them more responsive to both d
 * Add alt- text to every link and image
 * Come up with something to put on the landing page
 * Start with the login feature again. 
->>>>>>> ecd08632109fcaca84c11ef28d04cf103395f9e6
 
 ## 2021-02-22 08.37
 
