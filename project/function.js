@@ -21,16 +21,14 @@ async function randomjohndoe() {
     else 
         lastName = document.getElementById("lastName").value;
     
-    //document.getElementById("lastName").value;
-    const nameurl = "http://api.icndb.com/jokes/random?escape=javascript&firstName=" + firstName + "&lastName=" + lastName;
-    //console.log(nameurl);
-    const response = await fetch(nameurl); // with quotation mark fix
-    const tojson = await response.json();
-    //console.log(tojson);
-    document.getElementById("johndoejoke").innerText = tojson.value.joke;
-  }
+    let nameurl = "http://api.icndb.com/jokes/random?escape=javascript&firstName=" + firstName + "&lastName=" + lastName;
+    let response = await fetch(nameurl); // with quotation mark fix
 
-  // header content
-  (function fillheader() {
-    document.getElementById("header").innerText = document.getElementById("genericheader").innerText;
-  })();
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    } else {
+      const tojson = await response.json();
+      console.log(tojson);
+      document.getElementById("johndoejoke").innerText = tojson.value.joke;
+    }
+  }

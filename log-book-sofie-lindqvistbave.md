@@ -1,3 +1,5 @@
+responsivitet fungerar med signedin och about
+
 ## 2021-02-22 08.37
 
 #### Today's list:

@@ -1,4 +1,4 @@
-/* För att "nolla" dokumentet */
+/* SETUP */
 * {
     padding: 0;
     margin: 0;
@@ -13,17 +13,18 @@ html {
 
 a {
     text-decoration: none;
+    color: #190b23;
 }
-/* */
 
+/*  HEADER  */
 header {
     background: #5f2888;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to bottom, #5f2888, #9341d1);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to bottom, #5f2888, #9341d1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     font-family: 'Bungee', cursive;
     color: #190b23;
-    grid-row-start: 0;
-    grid-row-end: 1;
+    grid-row-start: 0;  /* To make the header stay at the top */
+    grid-row-end: 1;    /* To make the header stay at the top */
 }
 
 .navbar li {
@@ -40,28 +41,29 @@ header {
 }
 
 .nav-list a:hover {
-    background-color: rgba(000,000,000, 0.2);
+    background-color: rgba(000,000,000, 0.2);   /* Shades the links when hovering over them */
 }
 
 .nav-list {
     text-align: center;
-    position: relative;
-    z-index: 5;
+    position: relative; /* To allow z-positioning */
+    z-index: 5;         /* Positions the navigation links at the very top */
 }
 
 .heading {
-    position: relative;
-    z-index: 4;
+    margin-left: 0.2em;
+    position: relative; /* To allow z-positioning */
+    z-index: 4;         /* Positions the heading behind the links */
 }
 
 .heading-large {
     font-size: 3em;
     margin-bottom: 0.3em;
-    line-height: 1.2em;
+    line-height: 1.2em; /* Makes the text overlap the navigation links */
 }
 
+/*  CONTENT  */
 body {
-    /* background-color: #7030a0; */
     background-color: #9341d1;
     color: #190b23;
     min-height: 100%;
@@ -100,21 +102,83 @@ button {
     border-radius: .3em;
 }
 
+p a {
+    text-decoration: underline;
+}
+
+/*  ABOUT  */
+.profile-pic {
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin: 15px;
+    border: dotted;
+    border-width: 3px;
+    border-color: #190b23;
+    border-radius: 50%;
+}
+
+/*  CHUCK  */
 .btn-truth {
     margin-left: 1em;
 }
 
 .the-truth {
-    margin-top: 3em;
+    margin-top: 1.5em;
     border: none;
-    min-height: 5em;
+    min-height: 5em;    /* To make sure the content below does not "jump" regardless of the amount of rows the joke generates. */
+}
+
+.name-text {
+    align-content: center;
+    padding: 0px;
+    margin: 0px;
 }
 
 .name-box {
-    margin-left: 0.3em;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 5.5px;
     font-family: 'Poppins', sans-serif;
 }
+/*  --- Column setup for the input part ---  */
+/*  SECTIONS  */
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
 
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+	float:left;
+	margin: 4px, 0, 4px, 0;
+    padding: 0px;
+}
+.col:first-child { margin-left: 0; }
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+	.col { 
+		margin: 1% 0 1% 0%;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.firstname-text, .firstname-input, .lastname-text, .lastname-input { width: 100%; }
+}
+/*  --- End of column setup  ---  */
+
+
+/*  FOOTER  */
 footer {
     background: #5f2888;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to top, #5f2888, #9341d1);  /* Chrome 10-25, Safari 5.1-6 */
