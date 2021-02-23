@@ -1,3 +1,15 @@
+## 2021-02-23 08.25
+
+Good morning!
+The list from yesterday completed as far as possible. Index page and login page are still to get som content. 
+I translated the about-page to get a more cohesive feel about the page. Chuck is not the same in Swedish. 
+I also rearranged the input boxes in order to get them more responsive to both different screens and to get them more ajusted to those who use a Braille-display. 
+
+#### Today's list:
+* Add alt- text to every link and image
+* Come up with something to put on the landing page
+* Start with the login feature again. 
+
 ## 2021-02-22 08.37
 
 #### Today's list:
