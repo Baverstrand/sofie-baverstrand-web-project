@@ -30,6 +30,7 @@ header {
 .navbar {
     margin-top: 0;
 }
+
 .navbar li {
     display: inline;
 }
@@ -75,7 +76,7 @@ body {
     grid-template-rows: 1fr auto;
 }
 
-.content-background {
+.content-background {   /* Background in own class since other content is z-positioned */
     background-image: url(Images/chuck-purple.png);
     background-position: top right;
     background-repeat: no-repeat;

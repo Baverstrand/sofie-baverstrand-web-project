@@ -1,3 +1,5 @@
+"use strict;"
+
 // fetch a random Chuck joke
 async function randomchuck() {
   const response = await fetch("http://api.icndb.com/jokes/random?escape=javascript"); // with quotation mark fix
@@ -31,3 +33,19 @@ async function randomjohndoe() {
     document.getElementById("johndoejoke").innerText = tojson.value.joke;
   }
 }
+
+// fetch generic header
+(async function genericheader() {
+  let response = await fetch("genericheader.html"); 
+  let tohtml = await response.text();
+  //console.log(tohtml);
+  document.getElementById("genericheader").innerHTML = tohtml;
+})();
+
+// fetch generic footer
+(async function genericfooter() {
+  let response = await fetch("genericfooter.html"); 
+  let tohtml = await response.text();
+  //console.log(tohtml);
+  document.getElementById("genericfooter").innerHTML = tohtml;
+})();
