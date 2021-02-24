@@ -1,3 +1,19 @@
+## 2021-02-24 07.40
+
+Done yesterday:
+Alt text for picture is in place. I also read some articles about how to describe pictures in a good way. 
+The landing page is done. 
+I got the Google sign-in to work on a test page, but the redirect is giving me trouble. The Okta solution still won't work. Everything is identical with working setups. No idea why it doesn't work. I will give it a try on a live page today and see what happens. 
+
+#### Today's list:
+* Change the code and filenames to adjust to no login
+* Lift the login part to another page
+* Recruit a test crew with different devices.
+* Continue with tests for generic code. 
+
+#### Plus menu
+* Remake project board to exactly follow instructions. Convert cards to issues. 
+
 ## 2021-02-23 08.25
 
 Good morning!
