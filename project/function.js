@@ -1,4 +1,3 @@
-
 // fetch a random Chuck joke
 async function randomchuck() {
   const response = await fetch("http://api.icndb.com/jokes/random?escape=javascript"); // with quotation mark fix
