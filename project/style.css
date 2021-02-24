@@ -27,6 +27,9 @@ header {
     grid-row-end: 1;    /* To make the header stay at the top */
 }
 
+.navbar {
+    margin-top: 0;
+}
 .navbar li {
     display: inline;
 }
@@ -49,6 +52,7 @@ header {
     position: relative; /* To allow z-positioning */
     z-index: 5;         /* Positions the navigation links at the very top */
 }
+
 
 .heading {
     margin-left: 0.2em;
@@ -116,7 +120,7 @@ p a {
 
 /*  ABOUT  */
 .profile-pic {
-    float: left;
+    float: inline-end;
     height: 200px;
     width: 200px;
     margin: 15px;
