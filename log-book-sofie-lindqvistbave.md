@@ -11,6 +11,9 @@ I got the Google sign-in to work on a test page, but the redirect is giving me t
 * Recruit a test crew with different devices.
 * Continue with tests for generic code. 
 
+#### Plus menu
+* Remake project board to exactly follow instructions. Convert cards to issues. 
+
 ## 2021-02-23 08.25
 
 Good morning!
