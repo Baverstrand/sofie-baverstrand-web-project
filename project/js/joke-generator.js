@@ -1,4 +1,4 @@
-"use strict;"
+"use strict";
 
 // fetch a random Chuck joke
 async function randomchuck() {
