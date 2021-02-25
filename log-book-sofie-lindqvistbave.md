@@ -1,3 +1,19 @@
+## 2021-02-25 08.02
+
+Good morning!
+Yesterday I managed to get a lot of things done. The list was checked off, but I have focused on crucial parts rather than login. I looked at it briefly, but will continue today. 
+I managed to sort out how to use generic code for header and footer. After a long phone conversation with an old friend who is visually impaired, I decided to add a CSS-free version of the page. Only minor changes needed (like an image size and such). The CSS-free version is better for both screenreaders which translates to a braille display in combination with speech and zooming software. For example, a screenreader can have trouble finding a link which is not underlined. 
+I have tested the page with different screen sizes, and it looks good! Today I will put the page live for a while and have my test crew checking out the page with different devices, browsers and also a Mac. Also today is lecture day. 
+
+#### Today's list:
+* Put page live for testing
+* Let test crew do their thing with Android device, Mac, and different browsers. Have them take screenshots for documentation. 
+* Finish redesign of project board
+* Start with some kind of plan for video presentation. 
+
+#### Plus menu
+* Sign-in
+
 ## 2021-02-24 07.40
 
 Done yesterday:
