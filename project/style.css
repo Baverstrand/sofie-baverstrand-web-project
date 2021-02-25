@@ -64,6 +64,7 @@ header {
 
 .heading-large {
     font-size: 3em;
+    text-align: left;
     margin-bottom: 0.3em;
     line-height: 1.2em; /* Makes the text overlap the navigation links */
 }
@@ -86,6 +87,7 @@ body {
 
 .content-text {
     max-width: 1300px;
+    text-align: left;
 }
 
 .content {

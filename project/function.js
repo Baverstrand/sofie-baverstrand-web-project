@@ -22,7 +22,7 @@ async function randomjohndoe() {
   else
     lastName = document.getElementById("lastName").value;
 
-  let nameurl = "http://api.icndb.com/jokes/random?escape=javascript&firstName=" + firstName + "&lastName=" + lastName;
+  let nameurl = "https://api.icndb.com/jokes/random?escape=javascript&firstName=" + firstName + "&lastName=" + lastName;
   let response = await fetch(nameurl); // with quotation mark fix
 
   if (!response.ok) {
