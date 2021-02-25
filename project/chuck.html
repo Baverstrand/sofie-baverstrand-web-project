@@ -22,61 +22,64 @@
         <!-- Generic text -->
     </header>
     <div class="content-background">
-        <section class="content">
+        <div class="content-text">
+            <section class="content">
 
-            <!-- Fetch a random Chuck Norris joke -->
-            <div class="randomchuckjoke">
-                <h3 class="content-heading">The truth about Chuck</h3>
-                <div class="joke-area">
-                    Chuck dares you!<button class="btn-truth" onclick="randomchuck()">Click it!</button>
-                    <div class="the-truth">
-                        <p id="randomjoke" class="randomjoke"></p>
+                <!-- Fetch a random Chuck Norris joke -->
+                <div class="randomchuckjoke">
+                    <h3 class="content-heading">The truth about Chuck</h3>
+                    <div class="joke-area">
+                        Chuck dares you!<button class="btn-truth" onclick="randomchuck()">Click it!</button>
+                        <div class="the-truth">
+                            <p id="randomjoke" class="randomjoke"></p>
+                        </div>
                     </div>
                 </div>
+
+                <!-- Fetch a random Chuck Norris joke with a name of your choice -->
+                <div class="randomdoejoke">
+                    <h3 class="content-heading">Be your own Chuck</h3>
+                    <div class="joke-area">
+                        <p class="joketext">
+                            Fill in your name and enjoy the life of Chuck!
+                        </p>
+
+                        <div class="section firstname-input">
+
+                            <div class="firstname-row">
+                                <div class="col firstname-text">
+                                    <p class="name-text">
+                                        First name:
+                                    </p>
+                                </div>
+                                <div class="col firstname-input">
+                                    <input id="firstName" class="name-box" type="text" placeholder="John" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="section lastname-input">
+                            <div class="lastname-row">
+                                <div class="col lastname-text">
+                                    <p class="name-text">
+                                        Last name:
+                                    </p>
+                                </div>
+                                <div class="col lastname-input">
+                                    <input id="lastName" class="name-box" type="text" name="lastName"
+                                        placeholder="Doe" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="section btn-area">
+                            <button class="btn-own" onclick="randomjohndoe()">Go!</button>
+            </section>
+            <div class="the-truth">
+                <p id="johndoejoke" class="johndoejoke"></p>
             </div>
-
-            <!-- Fetch a random Chuck Norris joke with a name of your choice -->
-            <div class="randomdoejoke">
-                <h3 class="content-heading">Be your own Chuck</h3>
-                <div class="joke-area">
-                    <p class="joketext">
-                        Fill in your name and enjoy the life of Chuck!
-                    </p>
-
-                    <div class="section firstname-input">
-
-                        <div class="firstname-row">
-                            <div class="col firstname-text">
-                                <p class="name-text">
-                                    First name:
-                                </p>
-                            </div>
-                            <div class="col firstname-input">
-                                <input id="firstName" class="name-box" type="text" placeholder="John" />
-                            </div>
-                        </div>
-                    </div>
-                    <div class="section lastname-input">
-                        <div class="lastname-row">
-                            <div class="col lastname-text">
-                                <p class="name-text">
-                                    Last name:
-                                </p>
-                            </div>
-                            <div class="col lastname-input">
-                                <input id="lastName" class="name-box" type="text" name="lastName" placeholder="Doe" />
-                            </div>
-                        </div>
-                    </div>
-                    <div class="section btn-area">
-                        <button class="btn-own" onclick="randomjohndoe()">Go!</button>
-        </section>
-        <div class="the-truth">
-            <p id="johndoejoke" class="johndoejoke"></p>
         </div>
     </div>
-    </div>
     </section>
+    </div>
     </div>
     <footer id="genericfooter">
         <!-- Generic text -->

@@ -29,6 +29,7 @@ header {
 
 .navbar {
     margin-top: 0;
+    max-width: 1300px;
 }
 
 .navbar li {
@@ -80,6 +81,11 @@ body {
     background-image: url(Images/chuck-purple.png);
     background-position: top right;
     background-repeat: no-repeat;
+    max-width: 1300px;
+}
+
+.content-text {
+    max-width: 1300px;
 }
 
 .content {
