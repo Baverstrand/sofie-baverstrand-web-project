@@ -2,7 +2,7 @@
 
 // fetch a random Chuck joke
 async function randomchuck() {
-  const response = await fetch("http://api.icndb.com/jokes/random?escape=javascript"); // with quotation mark fix
+  const response = await fetch("https://api.icndb.com/jokes/random?escape=javascript"); // with quotation mark fix
   const tojson = await response.json();
   console.log(tojson);
   document.getElementById("randomjoke").innerText = tojson.value.joke;
