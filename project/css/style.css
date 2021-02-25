@@ -1,4 +1,4 @@
-/* SETUP */
+/* -- SETUP -- */
 * {
     padding: 0;
     margin: 0;
@@ -15,8 +15,9 @@ a {
     text-decoration: none;
     color: #190b23;
 }
+/* - END SETUP - */
 
-/*  HEADER  */
+/*  -- HEADER SPECIFIC -- */
 header {
     background: #5f2888;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to bottom, #5f2888, #9341d1);  /* Chrome 10-25, Safari 5.1-6 */
@@ -68,8 +69,9 @@ header {
     margin-bottom: 0.3em;
     line-height: 1.2em; /* Makes the text overlap the navigation links */
 }
+/*  -- END HEADER SPECIFIC -- */
 
-/*  CONTENT  */
+/*  -- CONTENT --  */
 body {
     background-color: #9341d1;
     color: #190b23;
@@ -126,8 +128,9 @@ button {
 p a {
     text-decoration: underline;
 }
+/*  - END CONTENT - */
 
-/*  ABOUT  */
+/*  -- ABOUT-SPECIFIC --  */
 .profile-pic {
     float: inline-end;
     height: 200px;
@@ -138,8 +141,9 @@ p a {
     border-color: #190b23;
     border-radius: 50%;
 }
+/*  - END ABOUT-SPECIFIC -  */
 
-/*  CHUCK  */
+/*  -- CHUCK-SPECIFIC --  */
 .btn-truth {
     margin-left: 1em;
 }
@@ -198,9 +202,10 @@ p a {
 	.firstname-text, .firstname-input, .lastname-text, .lastname-input { width: 100%; }
 }
 /*  --- End of column setup  ---  */
+/* - END CHUCK-SPECIFIC - */
 
 
-/*  FOOTER  */
+/*  -- FOOTER-SPECIFIC --  */
 footer {
     background: #5f2888;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to top, #5f2888, #9341d1);  /* Chrome 10-25, Safari 5.1-6 */
@@ -210,3 +215,4 @@ footer {
     grid-row-start: 3;
     grid-row-end: 4;
 }
+/*  - END FOOTER-SPECIFIC -  */
