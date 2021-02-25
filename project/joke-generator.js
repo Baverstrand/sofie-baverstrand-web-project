@@ -8,13 +8,6 @@ async function randomchuck() {
   document.getElementById("randomjoke").innerText = tojson.value.joke;
 }
 
-async function randomchuck2() {
-  const response = await fetch("https://api.chucknorris.io/jokes/random");
-  const tojson = await response.json();
-  console.log(tojson);
-  document.getElementById("randomjoke").innerText = tojson.value;
-}
-
 // fetch a random John Doe Chuck joke
 async function randomjohndoe() {
   let firstName = "";
@@ -40,19 +33,3 @@ async function randomjohndoe() {
     document.getElementById("johndoejoke").innerText = tojson.value.joke;
   }
 }
-
-// fetch generic header
-(async function genericheader() {
-  let response = await fetch("genericheader.html"); 
-  let tohtml = await response.text();
-  //console.log(tohtml);
-  document.getElementById("genericheader").innerHTML = tohtml;
-})();
-
-// fetch generic footer
-(async function genericfooter() {
-  let response = await fetch("genericfooter.html"); 
-  let tohtml = await response.text();
-  //console.log(tohtml);
-  document.getElementById("genericfooter").innerHTML = tohtml;
-})();
