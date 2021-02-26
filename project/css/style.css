@@ -1,4 +1,4 @@
-/* -- SETUP -- */
+/* -- Setup -- */
 * {
     padding: 0;
     margin: 0;
@@ -6,7 +6,7 @@
 }
 
 html {
-    height: 100%; /*This to make the footer at the bottom*/
+    height: 100%; /* To make the content cover the whole page */
     color: #190b23;
     font-family: 'Poppins', sans-serif;
 }
@@ -15,9 +15,9 @@ a {
     text-decoration: none;
     color: #190b23;
 }
-/* - END SETUP - */
+/* - end Setup - */
 
-/*  -- HEADER SPECIFIC -- */
+/*  -- Header -- */
 header {
     background: #5f2888;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to bottom, #5f2888, #9341d1);  /* Chrome 10-25, Safari 5.1-6 */
@@ -34,7 +34,7 @@ header {
 }
 
 .navbar li {
-    display: inline;
+    display: inline;    /* Makes the list elements line up horizontally instead of vertical */
 }
 
 .navbar a {
@@ -53,7 +53,7 @@ header {
 .nav-list {
     text-align: center;
     position: relative; /* To allow z-positioning */
-    z-index: 5;         /* Positions the navigation links at the very top */
+    z-index: 5;         /* Positions the navigation on top of the heading */
 }
 
 
@@ -67,11 +67,11 @@ header {
     font-size: 3em;
     text-align: left;
     margin-bottom: 0.3em;
-    line-height: 1.2em; /* Makes the text overlap the navigation links */
+    line-height: 1.2em; /* Creates an overlap between the heading and navbar */
 }
-/*  -- END HEADER SPECIFIC -- */
+/*  - end Header - */
 
-/*  -- CONTENT --  */
+/*  -- Content --  */
 body {
     background-color: #9341d1;
     color: #190b23;
@@ -96,8 +96,8 @@ body {
     margin-top: 1em;
     margin-left: 1em;
     max-width: 80%;
-    position: relative;
-    z-index: 5;
+    position: relative; /* z-positioning */
+    z-index: 5;         /* Positions the content in front of the heading */
 }
 
 .content-heading {
@@ -117,7 +117,7 @@ button {
     padding-left: 1em;
     padding-right: 1em;
     background: #5f2888;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to top, #5f2888, #9341d1);  /* Chrome, Safari*/
+    background: -webkit-linear-gradient(to top, #5f2888, #9341d1);  /* Chrome, Safari */
     background: linear-gradient(to top, #5f2888, #9341d1); /* W3C, IE, Edge, Firefox, Chrome 26+, Opera, Safari 7+ */
     font-family: 'Bungee', cursive;
     color: #190b23;
@@ -128,9 +128,9 @@ button {
 p a {
     text-decoration: underline;
 }
-/*  - END CONTENT - */
+/*  - end Content - */
 
-/*  -- ABOUT-SPECIFIC --  */
+/*  -- About --  */
 .profile-pic {
     float: inline-end;
     height: 200px;
@@ -141,9 +141,9 @@ p a {
     border-color: #190b23;
     border-radius: 50%;
 }
-/*  - END ABOUT-SPECIFIC -  */
+/*  - end About - */
 
-/*  -- CHUCK-SPECIFIC --  */
+/*  -- Chuck In --  */
 .btn-truth {
     margin-left: 1em;
 }
@@ -167,15 +167,13 @@ p a {
     font-family: 'Poppins', sans-serif;
 }
 
-/*  --- Column setup for the input part ---  */
-/*  SECTIONS  */
+/*  -- Grid setup for the input part in Chuck In --  */
 .section {
 	clear: both;
 	padding: 0px;
 	margin: 0px;
 }
 
-/*  COLUMN SETUP  */
 .col {
 	display: block;
 	float:left;
@@ -184,13 +182,10 @@ p a {
 }
 .col:first-child { margin-left: 0; }
 
-/*  GROUPING  */
 .group:before,
 .group:after { content:""; display:table; }
 .group:after { clear:both;}
 .group { zoom:1; /* For IE 6/7 */ }
-
-/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
 
 @media only screen and (max-width: 480px) {
 	.col { 
@@ -201,18 +196,17 @@ p a {
 @media only screen and (max-width: 480px) {
 	.firstname-text, .firstname-input, .lastname-text, .lastname-input { width: 100%; }
 }
-/*  --- End of column setup  ---  */
-/* - END CHUCK-SPECIFIC - */
+/*  - end Column setup  -  */
+/* - end Chuck In  - */
 
-
-/*  -- FOOTER-SPECIFIC --  */
+/*  -- Footer --  */
 footer {
     background: #5f2888;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to top, #5f2888, #9341d1);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to top, #5f2888, #9341d1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     font-family: 'Bungee', cursive;
     color: #190b23;
-    grid-row-start: 3;
-    grid-row-end: 4;
+    grid-row-start: 3; /* To make the footer stick to the bottom */
+    grid-row-end: 4;/* To make the footer stick to the bottom */
 }
-/*  - END FOOTER-SPECIFIC -  */
+/*  - end Footer -  */

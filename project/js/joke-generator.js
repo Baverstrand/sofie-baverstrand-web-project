@@ -1,35 +1,36 @@
 "use strict";
 
-// fetch a random Chuck joke
+// Call API and present random Chuck Norris joke
 async function randomchuck() {
-  const response = await fetch("https://api.icndb.com/jokes/random?escape=javascript"); // with quotation mark fix
-  const tojson = await response.json();
-  console.log(tojson);
-  document.getElementById("randomjoke").innerText = tojson.value.joke;
+  let response = await fetch("https://api.icndb.com/jokes/random?escape=javascript");
+  if (!response.ok) {   // Catch errors
+    throw new Error(`HTTP error! status: ${response.status}`);
+  } else {    // Present result
+    let tojson = await response.json();
+    document.getElementById("randomjoke").innerText = tojson.value.joke;
+  }
 }
 
-// fetch a random John Doe Chuck joke
+// Call API and present random Chuck Norris joke, but with a name of your choice (or default value)
 async function randomjohndoe() {
   let firstName = "";
-  if (document.getElementById("firstName").value == "")
+  if (document.getElementById("firstName").value == "") // Set default value
     firstName = "John";
   else
     firstName = document.getElementById("firstName").value;
 
   let lastName = "";
-  if (document.getElementById("lastName").value == "")
+  if (document.getElementById("lastName").value == "")  // Set default value
     lastName = "Doe";
   else
     lastName = document.getElementById("lastName").value;
 
   let nameurl = "https://api.icndb.com/jokes/random?escape=javascript&firstName=" + firstName + "&lastName=" + lastName;
-  let response = await fetch(nameurl); // with quotation mark fix
-
-  if (!response.ok) {
+  let response = await fetch(nameurl);
+  if (!response.ok) {   // Catch errors
     throw new Error(`HTTP error! status: ${response.status}`);
-  } else {
+  } else {    // Present result
     const tojson = await response.json();
-    console.log(tojson);
     document.getElementById("johndoejoke").innerText = tojson.value.joke;
   }
 }
