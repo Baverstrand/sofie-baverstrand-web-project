@@ -39,7 +39,7 @@
         <section class="content">
             <h2 class="content-heading name-heading">Sign in to the world of Chuck</h2>
             <!-- Content -->
-            
+
             <!-- Google Sign in -->
             <div class="g-signin2" data-onsuccess="onSignIn"></div>
             <!-- Google Sign in end -->
@@ -61,7 +61,7 @@
                     authParams: {
                         issuer: "https://dev-01825403.okta.com/oauth2/default" 
                     },
-                    redirectUri: 'https://baverstrand.github.io/sofie-baverstrand-web-project/project/index.html'
+                    redirectUri: 'https://baverstrand.github.io/sofie-baverstrand-web-project/project/chuck.html'
                 });
 
                 oktaSignIn.authClient.token.getUserInfo().then(function (user) {
