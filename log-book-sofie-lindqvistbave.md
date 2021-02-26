@@ -1,3 +1,19 @@
+## 2021-02-26
+
+Final day for this project. Time to wrap this up!
+Yesterday was a pretty productive day. I dare say the page is finished and final. I have been a bit back and forth about splitting up the .js- file to three, but I think it's the right decision. 
+The pitch presentation is almost finished. I have one last thing to check before I start recording.
+
+#### Today's list
+* Check out screenreader
+* Finish comments on code
+* Close issues on project board
+* Start recording
+* Zip up and submit!
+
+#### Plus menu
+* Get some screenreader stuff in presentation
+
 ## 2021-02-25 21.38
 
 Evening check-in. Today's list is completed. I finished the PowerPoint for the presentation. 
